@@ -9,7 +9,7 @@ app.get('/api/products/:id',(req,res)=>{
         res.send(product);
     }
     else{
-        res.status(404).send({message:'product not foundaa'});
+        res.status(404).send({message:'product not found...'});
     }
 })
 
